@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 100vh;
+    background: #eee;
+    overflow: auto;
+}
+
+.menu .item {
+    padding: 18px;
+    border-bottom: 2px solid #ddd;
+}
+
+.menu .item:focus {
+    background: #ddd;
+    font-weight: bold;
+    outline: none;
+}
